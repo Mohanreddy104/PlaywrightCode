@@ -1,0 +1,13 @@
+ {
+    
+    "validUser": {
+        "firstName": "Mohan",
+        "lastName": "Reddy",
+        "mobile": "9876543210",
+        "day": "10",
+        "month": "May",
+        "year": "1995",
+        "gender":"Male",
+        "password":"Mohan*95"
+    }
+}
