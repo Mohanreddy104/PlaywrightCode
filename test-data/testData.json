@@ -8,6 +8,7 @@
         "month": "May",
         "year": "1995",
         "gender":"Male",
-        "password":"Mohan*95"
+        "password":"Mohan*95",
+        "test":"demo"
     }
 }
