@@ -4,7 +4,7 @@ import { test } from "../fixture/test-fixture.spec";
 import testData from "../test-data/testData.json";
 
 test("facebook signup", async ({ facebookSignUP , page })=>{
- await page.goto("https://www.facebook.com/");
+ //await page.goto("https://www.facebook.com/");
 
     //const signup = new facebookSignUP(page);
 

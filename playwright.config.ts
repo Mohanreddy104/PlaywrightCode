@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import {environmentConfig} from "./config/environment";
 
 /**
  * Read environment variables from file.
@@ -13,6 +14,14 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+
+    use: {
+        baseURL: environmentConfig.baseURL,
+        headless: true,
+        screenshot: "only-on-failure",
+        video: "retain-on-failure",
+        trace: "retain-on-failure"
+    },
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
